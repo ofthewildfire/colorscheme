@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+ <title>html css for app</title>
+</head>
+<body>
+ <h1>Color Scheme Generator</h1>
+ <main id="container">
+  <div id="choice-bar">
+   <form action="#" id="form">
+    <label for="color">
+     <input type="color" id="color" name="color">
+    </label>
+    <label for="selection">
+     <select name="scheme-color" id="scheme">
+      <option class="scheme-options" value="monochrome" >Monochrome</option>
+      <option class="scheme-options" value="monochrome-dark">Monochrome-dark</option>
+      <option class="scheme-options" value="monochrome-light">Monochrome-light</option>
+      <option class="scheme-options" value="analogic">Analogic</option>
+      <option class="scheme-options" value="complement">Complement</option>
+      <option class="scheme-options" value="analogic-complement">Analogic-complement</option>
+      <option class="scheme-options" value="triad">Triad</option>
+     </select>
+    </label>
+    <button id="btn">Get color scheme</button>
+   </form>
+  </div>
+  <div id="colors">
+  </div>  
+  <div id="hexcodes">
+  </div>
+ </main>
+ <script src="app.js"></script>
+</body>
+</html>
